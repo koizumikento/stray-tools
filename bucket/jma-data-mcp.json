@@ -1,0 +1,23 @@
+{
+  "version": "0.2.1",
+  "description": "Japan Meteorological Agency (JMA) data MCP server",
+  "homepage": "https://github.com/koizumikento/jma-data-mcp",
+  "license": "Unknown",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/koizumikento/jma-data-mcp/releases/download/v0.2.1/jma-data-mcp.exe#/jma-data-mcp.exe",
+      "hash": "aeaa42f2964b7d2e0ad115b3e62a5ea529517ba3fd72a4f2f9dfbba633a0dd2e"
+    }
+  },
+  "bin": "jma-data-mcp.exe",
+  "checkver": {
+    "github": "https://github.com/koizumikento/jma-data-mcp"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/koizumikento/jma-data-mcp/releases/download/v$version/jma-data-mcp.exe#/jma-data-mcp.exe"
+      }
+    }
+  }
+}
