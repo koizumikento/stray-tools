@@ -3,6 +3,14 @@ class Dataq < Formula
   homepage "https://github.com/koizumikento/dataq"
   license "MIT"
   version "0.1.11"
+  depends_on "jq"
+  depends_on "yq"
+  depends_on "miller"
+  depends_on "pandoc"
+  depends_on "xh"
+  depends_on "ripgrep"
+  depends_on "nb"
+  depends_on "mdbook"
 
   on_macos do
     if Hardware::CPU.arm?
