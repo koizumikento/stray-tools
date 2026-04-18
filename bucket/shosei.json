@@ -1,12 +1,12 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Rust CLI for Japanese publishing workflows",
   "homepage": "https://github.com/koizumikento/shosei",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/koizumikento/shosei/releases/download/v0.2.1/shosei-v0.2.1-x86_64-pc-windows-msvc.zip",
-      "hash": "4e57082ff857c6f5cbdb19850eaab62ddb4e0756a5b451f6ac4f3fb3fdb29a4a"
+      "url": "https://github.com/koizumikento/shosei/releases/download/v0.2.2/shosei-v0.2.2-x86_64-pc-windows-msvc.zip",
+      "hash": "817f521d104ca4b0a7dbd956c60d037a6c0eff24a62245b83a3c4411328bd453"
     }
   },
   "bin": "shosei.exe",
