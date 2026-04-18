@@ -2,15 +2,15 @@ class Shosei < Formula
   desc "Rust CLI for Japanese publishing workflows"
   homepage "https://github.com/koizumikento/shosei"
   license "MIT"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/koizumikento/shosei/releases/download/v0.2.0/shosei-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dc1fb5bb7054bbac76a0068c793513604ab6d8ccc9411084688b53c4d878ff71"
+      url "https://github.com/koizumikento/shosei/releases/download/v0.2.1/shosei-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5d4fa2265b18391cd0da06c5c79250e96a4825cfd49622961917639af137838f"
     else
-      url "https://github.com/koizumikento/shosei/releases/download/v0.2.0/shosei-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f32a1acb39423ee3b7e1605c8410d4ce25dde047895627bf994fc3c88e663bd8"
+      url "https://github.com/koizumikento/shosei/releases/download/v0.2.1/shosei-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "70d6d2101204380f59cdaf8e7297a218c0b65f6f7282e9962dbdc01da8cf7a05"
     end
   end
 
