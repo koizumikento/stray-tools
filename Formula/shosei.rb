@@ -7,10 +7,10 @@ class Shosei < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/koizumikento/shosei/releases/download/v0.2.5/shosei-v0.2.5-aarch64-apple-darwin.tar.gz"
-      sha256 "633b5e6b68d5451bc9a358fcde3db40c119f9bf5a861a93f980277eac43e6825"
+      sha256 "968ffc6f82d038776e2758f8a80eef51a4c077264cd3c24d291700b4885bce4a"
     else
       url "https://github.com/koizumikento/shosei/releases/download/v0.2.5/shosei-v0.2.5-x86_64-apple-darwin.tar.gz"
-      sha256 "3f84fdb31f3cdd01d0a4c9cd70f71f0083c30d426b9ce61632d96292ef3d562e"
+      sha256 "4431c687e3769ef96b4be6b569786288bfd3d995ab2a89af16f414facba79f4c"
     end
   end
 
