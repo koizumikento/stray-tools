@@ -2,7 +2,7 @@ class Dataq < Formula
   desc "Rust-native CLI for deterministic data preprocessing"
   homepage "https://github.com/koizumikento/dataq"
   license "MIT"
-  version "0.1.18"
+  version "0.1.19"
   depends_on "jq"
   depends_on "yq"
   depends_on "miller"
@@ -19,11 +19,11 @@ class Dataq < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/koizumikento/dataq/releases/download/v0.1.18/dataq-v0.1.18-aarch64-apple-darwin.tar.gz"
-      sha256 "6eb3e15366a56d8396407680ed7c7855d36d18b9fc89f360e71edc8fc6343caa"
+      url "https://github.com/koizumikento/dataq/releases/download/v0.1.19/dataq-v0.1.19-aarch64-apple-darwin.tar.gz"
+      sha256 "0b7a4655de35ea72115ee6b0d2449f7c878e062d5151c45999148217af043ace"
     else
-      url "https://github.com/koizumikento/dataq/releases/download/v0.1.18/dataq-v0.1.18-x86_64-apple-darwin.tar.gz"
-      sha256 "d22b01906d3d3a6e48eac2fb847475e75720edc7e3ad70e0fe225f6e2471ce13"
+      url "https://github.com/koizumikento/dataq/releases/download/v0.1.19/dataq-v0.1.19-x86_64-apple-darwin.tar.gz"
+      sha256 "76e3a103f67e4a98a9e4726cd89df8dcda456cee7853aa381ec6dc40a2ed5442"
     end
   end
 
