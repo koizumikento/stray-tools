@@ -1,0 +1,23 @@
+{
+  "version": "0.1.19",
+  "description": "Rust-native CLI for deterministic data preprocessing",
+  "homepage": "https://github.com/koizumikento/dataq",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/koizumikento/dataq/releases/download/v0.1.19/dataq-v0.1.19-x86_64-pc-windows-msvc.zip",
+      "hash": "e0babd0fadad094636388340399065c2a687fd0b758c66994199865159b2a4d1"
+    }
+  },
+  "bin": "dataq.exe",
+  "checkver": {
+    "github": "https://github.com/koizumikento/dataq"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/koizumikento/dataq/releases/download/v$version/dataq-v$version-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}
