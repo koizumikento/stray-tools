@@ -1,16 +1,16 @@
 class Okf < Formula
   desc "Offline command-line workbench for Open Knowledge Format bundles"
   homepage "https://github.com/koizumikento/okf-workbench"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.0/okf-cli-macos-aarch64.tar.gz"
-      sha256 "42ce4e4425ccb49beb18b51fa527717f24328c5518dea7c158d780a76f945c00"
+      url "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.1/okf-cli-macos-aarch64.tar.gz"
+      sha256 "c422dac883c53a41d03236a18dd41dc336ff8b0c03cec2d1ab151f19fc13f394"
     else
-      url "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.0/okf-cli-macos-x86_64.tar.gz"
-      sha256 "acf36247d3689ef47a51376521802a47fddcfe76000fe704ba4eb66677c301d3"
+      url "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.1/okf-cli-macos-x86_64.tar.gz"
+      sha256 "7672d39dd8c3268014189ca6f3d0ae61633ff96bf37a946c3ef8bcd49394896f"
     end
   end
 
@@ -22,6 +22,6 @@ class Okf < Formula
 
   test do
     output = shell_output("#{bin}/okf version")
-    assert_match "0.1.0", output
+    assert_match "0.1.1", output
   end
 end
