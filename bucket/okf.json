@@ -1,12 +1,12 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Offline command-line workbench for Open Knowledge Format bundles",
   "homepage": "https://github.com/koizumikento/okf-workbench",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.1/okf-cli-windows-x86_64.tar.gz",
-      "hash": "4711d36a40d58c79be1f16b0fbddd9600a9ac4ea4c401b6b81d62c894020023b",
+      "url": "https://github.com/koizumikento/okf-workbench/releases/download/v0.1.2/okf-cli-windows-x86_64.tar.gz",
+      "hash": "a8fb8288e0e7a2ad1b67018f1301f3531d25db64f3b660600fd913ec8ab959ee",
       "extract_dir": "okf-cli-windows-x86_64"
     }
   },
