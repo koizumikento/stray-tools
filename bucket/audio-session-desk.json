@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Desktop audio recording and transcription workspace",
-  "homepage": "https://github.com/koizumikento/stray-tools/releases/tag/audio-session-desk-v0.1.0",
+  "homepage": "https://github.com/koizumikento/stray-tools/releases/tag/audio-session-desk-v0.2.0",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/koizumikento/stray-tools/releases/download/audio-session-desk-v0.1.0/audio-session-desk-windows-x64.zip",
-      "hash": "470c2409e5b77e341beabbc321e7044850888421e542a7949fac6089bc5175a7"
+      "url": "https://github.com/koizumikento/stray-tools/releases/download/audio-session-desk-v0.2.0/audio-session-desk-windows-x64.zip",
+      "hash": "bf421cb673ebf3aa4bd8a51b0e3aa568da10927fd311f0781050b4291d7a28eb"
     }
   },
   "depends": "main/ffmpeg",
